@@ -168,8 +168,9 @@ def registro_usuario(request, nombre):
                     identificador = usu.id
             c = t == 'ya existe'
 
-            rutaCompleta = os.path.join(
-                BASE_DIR, 'Aplicaciones', 'qr', 'static', 'codigos_qr/')
+            #rutaCompleta = os.path.join(
+                #BASE_DIR, 'Aplicaciones', 'qr', 'static', 'codigos_qr/')
+            rutaCompleta=  'codigos_qr/'   
             evento = Eventos.objects.get(name_evento=nombre)
 
             if len(evento.mi_lista) < evento.cupos:

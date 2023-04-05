@@ -50,9 +50,8 @@ class Profile(models.Model):
     ]
     info = models.CharField(max_length=30, choices=op, default='amigo')
     data = models.CharField(max_length=255)
-    imagen = models.ImageField(upload_to=os.path.join(BASE_DIR, 'Aplicaciones', 'qr', 'static', 'codigos_qr'))
-
-    
+    # imagen = models.ImageField(upload_to=os.path.join(BASE_DIR, 'Aplicaciones', 'qr', 'static', 'codigos_qr'))
+    imagen = models.ImageField(upload_to='codigos_qr')
 
 
 class Eventos(models.Model):
