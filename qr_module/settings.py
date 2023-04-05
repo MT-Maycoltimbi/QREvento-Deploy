@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'qr_module.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        default='postgresql://michaeltimbi04:v2_42nG2_QN3FJW2Wqtq2TY6RVbgehqp@db.bit.io:5432/michaeltimbi04/postgres',
         conn_max_age=600
     )
 
