@@ -3,6 +3,7 @@
 set -o errexit
 
 # poetry install
+pip install --upgrade pip
 pip install asgiref
 pip install autopep8
 pip install Brotli
@@ -20,7 +21,6 @@ pip install opencv-contrib-python
 pip install opencv-python
 pip install packaging
 pip install Pillow
-sudo apt-get install zbar-tools
 pip install psycopg2-binary
 pip install pycodestyle
 pip install pyparsing
