@@ -33,7 +33,7 @@ pip install sqlparse
 pip install typing_extensions
 pip install tzdata
 pip install whitenoise
-
+ export LD_LIBRARY_PATH= /opt/render/project/src/.venv/lib/python3.11/site-packages/pyzbar/zbar_library.py
 
 
 
