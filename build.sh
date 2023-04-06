@@ -4,6 +4,7 @@ set -o errexit
 
 # poetry install
 pip install -r requirements.txt
+pip install pyzbar
 
 
 python manage.py makemigrations qr
