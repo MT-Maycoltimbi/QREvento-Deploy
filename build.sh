@@ -21,18 +21,18 @@ pip install opencv-python
 pip install packaging
 pip install Pillow
 
-pip instal psycopg2-binary
-pip instal pycodestyle
-pip instal pyparsing
-pip instal pypng
-python-dateutil
-pip instal pyzbar
-pip instal qrcode
-pip instal six
-pip instal sqlparse
-pip instal typing_extensions
-pip instal tzdata
-pip instal whitenoise
+pip install psycopg2-binary
+pip install pycodestyle
+pip install pyparsing
+pip install pypng
+pip install python-dateutil
+pip install pyzbar
+pip install qrcode
+pip install six
+pip install sqlparse
+pip install typing_extensions
+pip install tzdata
+pip install whitenoise
 
 
 
