@@ -28,6 +28,7 @@ pip install pypng
 pip install python-dateutil
 pip install pyzbar
 pip install qrcode
+echo $LD_LIBRARY_PATH
 
 
 
